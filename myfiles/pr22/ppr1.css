@@ -1,0 +1,11 @@
+#head {
+	background-color: black;
+	color: lime;
+	border: 0.4vw outset #518919;
+	text-align: center;
+	margin: 2vw 50vw auto 20vw;
+	font-size: 3vw;
+	font-weight: bold;
+	font-family: algerian;
+	font-style: italic;
+}

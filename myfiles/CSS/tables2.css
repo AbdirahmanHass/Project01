@@ -1,0 +1,11 @@
+table {
+	background-color:black;
+	width:80%;
+}
+th {
+	color:blue;
+}
+td {
+	color:yellow;
+	text-align:center;
+}

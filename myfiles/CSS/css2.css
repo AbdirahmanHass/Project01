@@ -1,0 +1,122 @@
+body {
+	background-color: rgb(156,189,211);
+	font-weight: bold;
+	color: lime;
+}
+h1 {
+	font-family: algerian;
+	background-color: #00008d;
+	color: rgb(211,240,76);
+	font-size: 4vw;
+	text-align: center;
+	padding: 1vw;
+}
+h2 {
+	color: #000080;
+	background-color: #ffff00;
+	font-size: 4vw;
+	padding: 1vw;
+}
+h3 {
+	color:#ef509f;
+	font-size: 4vw;
+	opacity: 0.9;
+}
+#div1 {
+	background-color: #374c36;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div2 {
+	background-color: #4a6648;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div3 {
+	background-color: #5d7f5a;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div4 {
+	background-color: #6f996c;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div5 {
+	background-color: #72a27e;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div6 {
+	background-color: #85cc80;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div7 {
+	background-color: #97d592;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div8 {
+	background-color: #000070;
+	color: #ffffff;
+	font-size: 4vw;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div9 {
+	background-color: #131982;
+	color: #ffffff;
+	font-size: 4vw;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div10 {
+	background-color: #263394;
+	color: #ffffff;
+	font-size: 4vw;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div11 {
+	background-color: #384ca6;
+	color: #ffffff;
+	font-size: 4vw;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div12 {
+	background-color: #4b66b8;
+	color: #ffffff;
+	font-size: 4vw;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div13 {
+	background-color: #5e7fca;
+	color: #ffffff;
+	font-size: 4vw;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div14 {
+	background-color: #6099dc;
+	color: #ffffff;
+	font-size: 4vw;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div15 {
+	background-color: #73a3ee;
+	color: #ffffff;
+	font-size: 4vw;
+	padding: 0.01vw;
+	opacity: 0.8;
+}
+#div16 {
+	background-color: #86cdf0;
+	color: #ffffff;
+	font-size: 4vw;
+	padding: 0.01vw;
+	opacity: 0.8;
+}

@@ -1,0 +1,87 @@
+body {
+	background-color: #ddddff;
+}
+a {
+	font-size: 2vw;
+	color: #dd0000;
+	font-weight: bold;
+	font-style: italic;
+	font-family: algerian;
+}
+table {
+	text-align: center;
+	position: fixed;
+	top: 2vw;
+	right: 2vw;
+	background-color: green;
+	border: 0.3vw outset green;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+}
+th,td {
+	background-color: black;
+	font-size: 2vw;
+	font-weight: bold;
+}
+th {
+	color: red;
+}
+td {
+	color: white;
+}
+div.lists {
+	background-color: #e5e5e5;
+	position: relative;
+	margin: 3vw auto auto 2vw;
+	height: 63vw;
+	width: 40vw;
+	border: 0.1vw solid #000000;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+}
+ul,ol,dl {
+	position: absolute;
+}
+ul,ol {
+	top: 1vw;
+	background-color: black;
+	color: white;
+	padding: 1vw 2vw;
+}
+ul {
+	left: 3vw;
+}
+ol {
+	left: 15vw;
+}
+dl {
+	top: 15vw;
+	padding: 1vw;
+	border: 0.1vw solid navy;
+	width: 20vw;
+	margin-left: 3vw;
+	background-color: lime;
+}
+dt {
+	color: red;
+	margin: 0.5vw;
+	padding: 0.1vw;
+	border: 0.3vw outset navy;
+	background-color: navy;
+}
+dd {
+	background-color: gray;
+	border: 0.3vw outset gray;
+	color: yellow;
+}
+div.para {
+	background-color: #9999ff;
+	border: 0.1vw solid #000000;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+	width: 80vw;
+	margin: 2vw auto auto 2vw;
+	font-size: 2vw;
+	color: #cccc00;
+	font-family: times new roman;
+	padding: 0.1vw 0.8vw;
+	font-weight: bold;
+	font-style: italic;
+}

@@ -1,0 +1,47 @@
+body {
+	background-color: cyan;
+	text-align: center;
+	font-size: 2vw;
+	font-family: calibri;
+	font-weight: bold;
+	color: blue;
+}
+a {
+	font-size: 3vw;
+	color: red;
+	font-family: algerian;
+	font-weight: bold;
+}
+#mainh {
+	font-size: 5vw;
+	color: red;
+	font-family: arial;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+#first {
+	background-color: purple;
+	padding: 2vw;
+	text-align: left;
+}
+#firstList {
+	text-align: left;
+}
+#secondList {
+	text-align: left;
+	background-color: black;
+	color: green;
+}
+.tag {
+	color: red;
+}
+.text {
+	color: white;
+}
+.style {
+	color: yellow;
+}
+.attribute {
+	color: pink;
+}

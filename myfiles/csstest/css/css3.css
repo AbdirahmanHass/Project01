@@ -1,0 +1,26 @@
+body {
+	background: #000000 url("images/lines.png");
+	color: #ff0000;
+	font-size: 3vw;
+}
+a {
+	float: left;
+	color: red;
+	font-weight: bold;
+	font-size: 2vw;
+}
+#head {
+	color: #aac6a8;
+	font-family: algerian;
+	font-weight: bold;
+	font-style: italic;
+	background: url("images/245.jpg") repeat-x;
+	padding: 1vw;
+	text-align: center;
+}
+#div1 {
+	background: url("images/248.jpg") repeat-x center left;
+}
+#div2 {
+	background: url("images/247.jpg") no-repeat;
+}

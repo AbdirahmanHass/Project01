@@ -1,0 +1,125 @@
+body {
+	  background-image: linear-gradient(180deg, gray, cyan);
+	  font-size: 1.5vw;
+}
+a {
+	color: lightblue;
+}
+#amba {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
+	display: none;
+	width: 10vw;
+	padding: 0.5vw;
+	box-shadow: 0 8px 16px 0 rgba(220,50,220,0.7);
+	border: 0.1vw solid #dd55dd;
+}
+#amba a{
+	color: #dd55dd;
+	font-size: 1.5vw;
+	font-weight: bold;
+}
+#science {
+	text-align: center;
+	background-color: lightblue;
+	color: blue;
+	font-size: 3.5vw;
+	font-family: algerian;
+	padding: 0.8vw;
+	font-weight: bold;
+}
+h1 {
+	font-family: goudy stout;
+	background-color: yellow;
+	font-size: 4.2vw;
+	color: purple;
+	padding: 2.5vw 0;
+}
+h2 {
+	background-color: lightblue;
+	color: green;
+	font-size: 2.1vw;
+	padding: 0.8vw;
+}
+h4 {
+	color: blue;
+	font-family: calibri;
+	font-size: 1.7vw;
+	padding: 0.8vw;
+}
+ul.ul_1 {
+	background-color: lightblue;
+	text-align: center;
+	color: green;
+	font-size: 2.5vw;
+	padding: 0.8vw;
+	}
+ul.ul_2  {
+	background-color: black;
+	color: purple;
+	font-family: algerian;
+	font-size: 1.7vw;
+	padding: 0.8vw;
+}
+table.table1 {
+	text-align: center;
+	background-color: blue;
+	width: 100%;
+	padding: 0.8vw;
+}
+th {
+	background-color: black;
+	font-size: 2.4vw;
+	font-family: algerian;
+}
+table.table2 {
+	background-color: purple;
+	width: 100%;
+	padding: 0.8vw;
+}
+th {
+	color: blue;
+}
+td {
+	background-color: blue;
+	font-size: 1.7vw;
+	color: white;
+	text-align: center;
+}
+#logout {
+	font-style: italic;
+	font-weight: bold;
+	color: black;
+	font-size: 1.7vw;
+	position: fixed;
+	top: 0.5vw;
+	right: 0.5vw;
+}
+#copy {
+	position: fixed;
+	bottom: 0.4vw;
+	left: 0.4vw;
+	font-size: 0.8vw;
+	font-style: italic;
+	font-family: arial;
+	color: yellow;
+	font-weight: bold;
+}
+#menuButt {
+	background-color: #dd55dd;
+	color: #000000;
+	border: 0.3vw outset #dd55dd;
+	box-shadow: 0 0.3vw 0.7vw 0 rgba(220,50,220,0.9);
+	font-weight: bold;
+	position: fixed;
+	top: 1vw;
+	left: 1vw;
+}
+#ksu {
+	background-color: #dd55dd;
+	color: #000000;
+	border: 0.2vw groove #dd55dd;
+	font-weight: bold;
+}

@@ -1,0 +1,70 @@
+html {
+	background-color: black;
+}
+body {
+	background-color: black;
+	color: navy;
+	font-size: 3vw;
+	font-family: calibri;
+}
+a {
+	color: maroon;
+	font-size: 3.5;
+	font-family: algerian;
+}
+h1 {
+	color: brown;
+	font-weight: bold;
+	font-style: italic;
+	font-family: arial;
+	text-align: center;
+}
+#frm1 {
+	height: auto;
+	width: 90%;
+}
+label {
+	color: yellow;
+}
+legend {
+	font-weight: bold;
+	color: darkgray;
+	font-family: broadway;
+}
+input {
+	height: 2.4vw;
+	width: auto;
+	font-size: 2.2vw;
+	background-color: black;
+	color: white;
+}
+fieldset {
+	border-width: 0.7vw;
+}
+.submit {
+	background-color: maroon;
+	height: 4vw;
+	width: auto;
+	font-family: algerian;
+	color: lime;
+	font-weight: bold;
+	font-size: 3vw;
+}
+.reset {
+	background-color: lime;
+	height: 4vw;
+	width: auto;
+	font-family: algerian;
+	color: black;
+	font-weight: bold;
+	font-size: 3vw;
+}
+#fifa {
+	font-size: 3vw;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+	background-color: navy;
+	padding: 3vw;
+	text-align: center;
+}

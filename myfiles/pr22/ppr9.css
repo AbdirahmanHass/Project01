@@ -1,0 +1,22 @@
+body {
+	background-color: #aaaaff;
+}
+button {
+	height: ;3vw;
+	width: 3vw;
+}
+#calc {
+	width: 30%;
+	background-color: #000000;
+	padding: 1vw;
+	border: 0.3vw ridge #ffff00;
+	box-shadow: 0 16px 32px 0 rgba(255,255,0,0.8);
+}
+#box1 {
+	background-color: #555555;
+	border: 0.1vw solid #ffffff;
+	width: 15vw;
+	height: 2vw;
+	color: #ff0000;
+	padding: 0.5vw auto 0.2vw 0.5vw;
+}

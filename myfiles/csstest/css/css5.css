@@ -1,0 +1,49 @@
+body {
+	margin: 0vw;
+	background-color: navy;
+}
+a {
+	float: left;
+	color: red;
+	font-weight: bold;
+	font-size: 2vw;
+}
+#d1 {
+	margin-top: 5vw;
+	margin-right: 10vw;
+	margin-bottom: auto;
+	margin-left: 10vw;
+	color: cyan;
+	font-size: 4vw;
+	font-weight: bold;
+	font-style: italic;
+	font-family: algerian;
+	border-style: outset;
+	border-color: red;
+	border-width: 1vw;
+	text-align: center;
+	padding: 1vw;
+}
+#d2 {
+	margin-top: 10vw;
+	margin-right: 20vw;
+	margin-bottom: auto;
+	margin-left: 30vw;
+	color: cyan;
+	font-size: 4vw;
+	font-weight: bold;
+	font-style: italic;
+	font-family: algerian;
+	border-style: outset;
+	border-color: red;
+	border-width: 1vw;
+	text-align: center;
+	padding: 1vw;
+}
+#div1 {
+	margin: 7vw auto auto auto;
+	padding: 0vw;
+}
+table {
+	width: 100%;
+}

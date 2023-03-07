@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="CSS/forms4.css">
+		<title>
+			Forms4
+		</title>
+	</head>
+	<body>
+		<a href="home.php">HOME</a><br>
+		<form action="/action_page.php">
+			<fieldset>
+				<legend>PLACEHOLDER</legend>
+				<label for="fname">First Name:</label><br>
+				<input type="text" id="fname" name="fname" size="10" maxlength="10"><br>
+				<label for="lname">Last Name:</label><br>
+				<input type="text" id="lname" name="lname" size="10" maxlength="10"><br>
+				<label for="phone">Telephone Number:</label><br>
+				<input type="tel" id="phone" name="phone" size="10" maxlength="10" placeholder="0700000000"><br><br>
+				<input type="submit" class="submit" value="SUBMIT">
+				<input type="reset" class="reset" value="RESET">
+			</fieldset>
+		</form>
+		<form action="/action_page.php">
+			<fieldset>
+				<legend>REQUIRED</legend>
+				<label for="user">Username:</label><br>
+				<input type="text" id="user" name="user" size="10" maxlength="10" required><br>
+				<label for="email">Email Address:</label><br>
+				<input type="email" id="email" name="email" required><br>
+				<label for="psw">Password:</label><br>
+				<input type="password" id="psw" name="psw" size="20" maxlength="20" required><br><br>
+				<input type="submit" class="submit" value="SUBMIT">
+				<input type="reset" class="reset" value="RESET">
+			</fieldset>
+		</form>
+		<form action="/action_page.php">
+			<fieldset>
+				<legend>STEP</legend>
+				<label for="id">ID Number:</label><br>
+				<input type="text" id="id" name="id" size="8" maxlength="8" placeholder="12345678" required><br>
+				<label for="pass">Password:</label><br>
+				<input type="password" id="pass" name="pass" size="10" maxlength="10" required><br>
+				<label for="points">Points:</label><br>
+				<input type="number" id="points" name="points" step="100" required><br><br>
+				<input type="submit" value="SUBMIT" class="submit">
+				<input type="reset" class="reset" value="RESET">
+			</fieldset>
+		</form>
+		<form action="/action_page.php" autocomplete="on">
+			<fieldset>
+				<legend>AUTOCOMPLETE</legend>
+				<label for="fname">First Name:</label><br>
+				<input type="text" id="fname" name="fname" size="10" maxlength="10" required><br>
+				<label for="lname">Last Name:</label><br>
+				<input type="text" id="lname" name="lname" size="10" maxlength="10" required><br>
+				<label for="age">Age:</label><br>
+				<input type="number" id="age" name="age" required><br>
+				<label for="gender">Gender:</label><br>
+				<select id="gender" name="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+				</select><br>
+				<label for="nationality">Nationality:</label><br>
+				<select id="nationality" name="nationality">
+					<option value="kenya">Kenya</option>
+					<option value="uganda">Uganda</option>
+					<option value="sudan">Sudan</option>
+					<option value="ethiopia">Ethiopia</option>
+					<option value="eritrea">Eritrea</option>
+					<option value="tanzania">Tanzania</option>
+					<option value="somalia">Somalia</option>
+					<option value="djibouti">Djibouti</option>
+					<option value="ruanda">Ruanda</option>
+					<option value="burundi">Burundi</option>
+					<option value="congo">Congo</option>
+					<option value="egypt">Egypt</option>
+					<option value="zambia">Zambia</option>
+					<option value="zimbabwe">Zimbabwe</option>
+					<option value="angola">Angola</option>
+					<option value="nigeria">Nigeria</option>
+					<option value="algeria">Algeria</option>
+					<option value="southAfrica">South Africa</option>
+					<option value="madagascar">Madagascar</option>
+					<option value="libya">Libya</option>
+					<option value="tunisia">Tunisia</option>
+					<option value="chad">Chad</option>
+				</select><br>
+				<label for="email">Email Address:</label><br>
+				<input type="email" id="email" name="email" required><br>
+				<label for="pass">Password:</label><br>
+				<input type="password" id="pass" name="pass" size="20" maxlength="20" required><br><br>
+				<input type="submit" class="submit" value="SUBMIT">
+				<input type="reset" class="reset" value="RESET">
+			</fieldset>
+		</form>
+	</body>
+</html>

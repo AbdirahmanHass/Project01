@@ -1,0 +1,83 @@
+body {
+	background-color: tomato;
+}
+a {
+	font-size: 3vw;
+	color: blue;
+	font-family: algerian;
+	font-weight: bold;
+}
+body {
+	color: slateblue;
+	font-family: algerian;
+	font-size: 2vw;
+}
+h1 {
+	text-align: center;
+}
+select {
+	height: 40px;
+	width: 120px;
+	font-size: 20px;
+}
+option {
+	font-size: 20px;
+}
+label {
+	color: black;
+}
+#car {
+	height: auto;
+}
+#language {
+	height: auto;
+}
+legend {
+	color: black;
+	font-weight: bold;
+}
+.submit {
+	height: 30px;
+	width: 90px;
+	background-color: green;
+	color: white;
+	font-family: algerian;
+	font-weight: bold;
+	font-size: 20px;
+}
+input {
+	background-color: black;
+	color: yellow;
+	width: 200px;
+}
+form {
+	background-color: cyan;
+	padding: 10px;
+}
+#smartphone {
+	background-color: black;
+	color: yellow;
+	font-family: franklin gothic heavy;
+}
+#car {
+	background-color: black;
+	color: yellow;
+	width: 130px;
+	font-family: franklin gothic heavy;
+}
+#language {
+	background-color: black;
+	color: yellow;
+	font-family: franklin gothic heavy;
+}
+h4 {
+	color: black;
+	font-family: calibri;
+	font-size: 30px;
+}
+#imp {
+	color: blue;
+	font-family: arial;
+	font-style: italic;
+	font-weight: bold;
+}

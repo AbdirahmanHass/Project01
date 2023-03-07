@@ -1,0 +1,92 @@
+body {
+	background-color: black;
+}
+a {
+	font-size: 30px;
+	color: red;
+	font-family: algerian;
+	font-weight: bold;
+}
+#mainh {
+	font-family: goudy stout;
+	background-color: yellow;
+	font-size: 50px;
+	color: purple;
+	padding: 30px;
+	font-weight: bold;
+}
+#myHeader {
+	font-family: algerian;
+	color: green;
+	font-weight: bold;
+	text-align: center;
+}
+.city {
+	font-family: arial;
+	color: blue;
+	font-weight: bold;
+	font-size: 20px;
+}
+.inf {
+	font-family: calibri;
+	color: yellow;
+	font-style: italic;
+	text-align: justify;
+	font-size: 20px;
+}
+#team {
+	font-size: 30px;
+	font-family: rockwell extra bold;
+}
+#teamRed {
+	color: red;
+	float: left;
+}
+#teamBlue {
+	color: blue;
+	float: right;
+}
+table {
+	width: 45%;
+	padding: 5px;
+}
+.tables {
+	font-size: 20px;
+	text-align: center;
+	font-family: algerian;
+}
+th {
+	background-color: white;
+}
+td {
+	background-color: white;
+}
+#tableRed {
+	background-color: red;
+	color: red;
+	float: left;
+}
+#tableBlue {
+	background-color: blue;
+	color: blue;
+	float: right;
+}
+#lineUp {
+	font-size: 25px;
+	background-color: purple;
+	color: purple;
+	margin-left: auto;
+	margin-right: auto;
+}
+.vs {
+	text-align: center;
+	color: green;
+	font-size: 30px;
+	font-family: arial black;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}

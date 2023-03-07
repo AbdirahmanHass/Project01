@@ -1,0 +1,26 @@
+body {
+	background-color: #999999;
+}
+#signin,#signup {
+	color: #22ffff;
+	text-align: center;
+	font-weight: bold;
+	position: fixed;
+	padding: 0.3vw;
+	width: 7vw;
+	right: 3vw;
+	font-size: 2vw;
+	font-family: algerian;
+	font-style: italic;
+	box-shadow: 0.2vw 0.2vw 0.2vw 0.1vw rgba(0,0,0,0.5);
+}
+#signin {
+	top: 8vw;
+	border: 0.5vw outset #ee1111;
+	background-color: #ff2222;
+}
+#signup {
+	top: 3vw;
+	border: 0.5vw outset #ee1111;
+	background-color: #ff2222;
+}

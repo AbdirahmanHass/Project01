@@ -1,0 +1,51 @@
+body {
+	background-color: cyan;
+	text-align: left;
+	font-size: 20px;
+	font-family: calibri;
+	font-weight: bold;
+	color: blue;
+}
+a {
+	font-size: 30px;
+	color: red;
+	font-family: algerian;
+	font-weight: bold;
+}
+#mainh {
+	font-size: 50px;
+	color: red;
+	font-family: arial;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+#first {
+	background-color: purple;
+	padding: 15px;
+	text-align: left;
+}
+#firstList {
+	text-align: left;
+}
+form {
+	color: green;
+}
+#form1 {
+	
+}
+#form2 {
+	
+}
+#form3 {
+	color: green;
+}
+.submit {
+	height: 30px;
+	width: 90px;
+	background-color: green;
+	color: white;
+	font-family: algerian;
+	font-weight: bold;
+	font-size: 20px;
+}

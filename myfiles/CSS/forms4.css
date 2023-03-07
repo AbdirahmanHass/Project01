@@ -1,0 +1,61 @@
+body {
+	background-color: maroon;
+	font-size: 3vw;
+}
+a {
+	color: blue;
+	font-family: algerian;
+	font-weight: bold;
+	text-align: left;
+}
+form {
+	background-color: brown;
+	padding: 0.5vw;
+}
+fieldset {
+	border-color: black;
+	border-width: 0.3vw;
+	width: 60%;
+}
+legend {
+	font-size: 3vw;
+	font-family: algerian;
+	font-weight: bold;
+	font-style: italic;
+	color: yellow;
+	text-align: right;
+}
+label {
+	font-weight: bold;
+	color: aqua;
+}
+input {
+	height: 30;
+	width: auto;
+	font-size: 2vw;
+	background-color: black;
+	color: white;
+}
+select {
+	height: 35;
+	width: 200;
+	font-size: 2vw;
+	color: white;
+	background-color: black;
+}
+.submit {
+	height: 40;
+	width: 140;
+	font-weight: bold;
+	background-color: green;
+	color: yellow;
+	font-family: arial;
+}
+.reset {
+	height: 40;
+	width: 140;
+	font-weight: bold;
+	background-color: yellow;
+	color: green;
+	font-family: arial;
+}

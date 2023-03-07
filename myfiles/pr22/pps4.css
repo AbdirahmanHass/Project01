@@ -1,0 +1,28 @@
+body {
+	background-color: #dddddd;
+}
+.info {
+	color: #ff0000;
+	font-family: algerian;
+}
+th,td {
+	height: 1.7vw;
+}
+#van {
+	position: fixed;
+	width: 30vw;
+	top: 1vw;
+	right: 1vw;
+	background-color: #000000;
+	color: #00ff00;
+	border: 0.1vw solid #00ff00;
+	box-shadow: 0 0.7vw 1.4vw 0 rgba(0,255,0,0.8);
+}
+#tab1 {
+	
+}
+#tab2 {
+	text-align: center;
+	margin-top: 2vw;
+	margin-left: 5vw;
+}

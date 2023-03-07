@@ -1,0 +1,24 @@
+body {
+	background-color: lightgray;
+}
+a {
+	color: green;
+	font-family: algerian;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+#links {
+	background-color: black;
+}
+iframe {
+	float: right;
+	height: 890px;
+	width: 85%;
+	border: none;
+}
+#menu {
+	font-size: 40px;
+	color: red;
+	text-align: left;
+}

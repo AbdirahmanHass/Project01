@@ -1,0 +1,60 @@
+body {
+	background-color: grey;
+	font-size: 2vw;
+	font-family: britannic bold;
+	color: purple;
+	font-weight: bold;
+}
+a {
+	font-size: 3vw;
+	color: yellow;
+	font-family: algerian;
+}
+h1 {
+	font-style: italic;
+	text-align: center;
+	color: cyan;
+	font-family: algerian;
+	font-size: 5vw;
+}
+form {
+	background-color: lightgray;
+	padding: 10px;
+}
+#mainh {
+	background-color: brown;
+	padding: 5px;
+}
+.button {
+	background-color: green;
+	color: yellow;
+	font-family: algerian;
+	height: 50px;
+	width: 150px;
+	font-size: 2vw;
+	font-weight: bold;
+}
+.button2 {
+	background-color: yellow;
+	color: green;
+	font-family: algerian;
+	height: 50px;
+	width: 150px;
+	font-size: 2vw;
+	font-weight: bold;
+}
+input {
+	background-color: black;
+	color: white;
+	height: 30px;
+	width: auto;
+	font-size: 20px;
+}
+legend {
+	font-size: 40px;
+	font-family: algerian;
+	color: blue;
+}
+fieldset {
+	border-color: blue;
+}

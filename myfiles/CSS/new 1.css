@@ -1,0 +1,21 @@
+html {
+	background-color: yellow;
+}
+body {
+	background-color: brown;
+	color: black;
+	font-size: 3vw;
+	padding: 1vw;
+}
+a {
+	color: lime;
+	font-size: 4vw;
+	font-weight: bold;
+	font-style: italic;
+	font-family: algerian;
+}
+h1 {
+	font-weight: bold;
+	text-align: center;
+	color: navy;
+}

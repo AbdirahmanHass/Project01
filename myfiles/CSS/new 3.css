@@ -1,0 +1,88 @@
+body {
+	background-color: lightgrey;
+}
+a {
+	font-size: 30px;
+	color: red;
+	font-family: algerian;
+	font-weight: bold;
+}
+table {
+	width: 100%;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: calibri;
+	text-align: center;
+	padding: 5px;
+}
+th {
+	background-color: white;
+}
+td {
+	background-color: white;
+}
+.titles {
+	color: purple;
+	font-family: goudy stout;
+	font-size: 30px;
+	text-align: center;
+}
+.city {
+	color: blue;
+	font-size: 20px;
+	font-family: algerian;
+}
+.paragraph1 {
+	color: green;
+	font-size: 20px;
+	font-family: arial;
+}
+.important {
+	color: red;
+	font-size: 120%;
+	font-weight: bold;
+}
+.table1 {
+	background-color: red;
+	color: red;
+}
+.table2 {
+	background-color: blue;
+	color: blue;
+}
+.table3 {
+	background-color: green;
+	color: green;
+}
+.table4{
+	background-color: purple;
+	color: purple;
+}
+.east {
+	font-size: 30px;
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	font-family: algerian;
+}
+.west {
+	font-size: 30px;
+	color: blue;
+	text-align: center;
+	font-weight: bold;
+	font-family: algerian;
+}
+.north {
+	font-size: 30px;
+	color: green;
+	text-align: center;
+	font-weight: bold;
+	font-family: algerian;
+}
+.south {
+	font-size: 30px;
+	color: purple;
+	text-align: center;
+	font-weight: bold;
+	font-family: algerian;
+}

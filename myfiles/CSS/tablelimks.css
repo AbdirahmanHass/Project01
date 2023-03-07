@@ -1,0 +1,13 @@
+table {
+	background-color:blue;
+	width:100%;
+	text-align:center;
+}
+th {
+	background-color:black;
+	font-size:18px;
+	font-family:algerian;
+}
+a {
+	color:yellow;
+}

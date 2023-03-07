@@ -1,0 +1,43 @@
+body {
+	background-color: darkslategray;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+a {
+	font-size: 30px;
+	color: red;
+	font-family: algerian;
+	font-weight: bold;
+}
+h2 {
+	color: lightblue;
+}
+#mainh {
+	font-size: 45px;
+	font-weight: bold;
+	background-color: purple;
+	color: aqua;
+	text-align: center;
+	font-family: algerian;
+}
+#button1 {
+	height: 40px;
+	width: 120px;
+	font-size: 15px;
+	color: yellow;
+	background-color: purple;
+	font-weight: bold;
+	font-family: algerian;
+	font-style: italic;
+}
+#button2 {
+	height: 50px;
+	width: 120px;
+	font-size: 15px;
+	color: white;
+	background-color: blue;
+	font-weight: bold;
+	font-family: algerian;
+	font-style: italic;
+}

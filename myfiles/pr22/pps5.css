@@ -1,0 +1,26 @@
+body {
+	background-color: #330000;
+	color: #ffffff;
+}
+#msa {
+	position: fixed;
+	width: 6vw;
+	left: 20vw;
+	top: 10vw;
+	background-color: #440000;
+	color: #ff0000;
+	padding: 0.2vw 1vw;
+	border: 0.3vw ridge #ff0000;
+	font-size: 2vw;
+}
+#jak {
+	position: fixed;
+	top: 1vw;
+	right: 2.3vw;
+	font-weight: bold;
+	font-family: algerian;
+}
+a {
+	color: #ffffff;
+	font-weight: bold;
+}

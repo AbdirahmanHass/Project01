@@ -1,0 +1,71 @@
+body {
+	background-color: teal;
+	font-size: 2vw;
+	font-family: britannic bold;
+	color: yellow;
+}
+a {
+	font-size: 3vw;
+	color: red;
+	font-family: algerian;
+	font-weight: bold;
+	font-style: italic;
+}
+h1 {
+	font-weight: bold;
+	text-align: center;
+	background-color: olive;
+	padding: 10px;
+	color: navy;
+	padding: 5px;
+}
+legend {
+	font-size: 3vw;
+	font-weight: bold;
+	text-align: right;
+}
+input {
+	background-color: darkblue;
+	color: fuchsia;
+	height: 30px;
+	width: auto;
+	font-size: 20px;
+}
+.submit {
+	background-color: green;
+	color: yellow;
+	font-family: algerian;
+	height: 50px;
+	width: 150px;
+	font-size: 2vw;
+	font-weight: bold;
+}
+.reset {
+	background-color: yellow;
+	color: green;
+	font-family: algerian;
+	height: 50px;
+	width: 150px;
+	font-size: 2vw;
+	font-weight: bold;
+}
+label {
+	font-size: 3vw;
+}
+fieldset {
+	border-color: black;
+	border-width: 0.2vw;
+}
+form {
+	width: 80%;
+	float: right;
+}
+p {
+	color: black;
+	font-family: algerian;
+	font-weight: bold;
+}
+.imp {
+	font-style: italic;
+	color: lightgray;
+}

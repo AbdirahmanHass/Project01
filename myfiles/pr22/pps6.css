@@ -1,0 +1,21 @@
+body {
+	
+}
+div {
+	border: 0.1vw solid black;
+	width: 35%;
+}
+span {
+	color: #ff0000;
+}
+#juku {
+	position: fixed;
+	background-color: #dddddd;
+	color: #aa0000;
+	font-weight: bold;
+	font-family: calibri;
+	top: 0.5vw;
+	right: 2vw;
+	border: 0.3vw ridge #0000ff;
+	padding: 0.1vw 0.2vw;
+}

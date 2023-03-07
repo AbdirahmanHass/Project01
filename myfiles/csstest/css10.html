@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CSS10</title>
+		<style>
+			body {
+				
+			}
+			a {
+				float: left;
+				color: red;
+				font-weight: bold;
+				font-size: 2vw;
+			}
+			p {
+				font-size: 2vw;
+			}
+			p::first-line {
+				color: #444444;
+				font-style: italic;
+				font-weight: bold;
+				font-size: 1.8vw;
+			}
+			p::first-letter {
+				color: #aa0033;
+				font-size: 125%;
+			}
+			p::before {
+				content: url("css/images/249.jpg");
+			}
+			p::after {
+				content: url("css/images/246.jpg");
+			}
+			#head {
+				position: fixed;
+				top: 1vw;
+				right: 1vw;
+				border: 0.5vw ridge #55dd55;
+				background-color: #000000;
+				color: #ff0000;
+				font-family: algerian;
+				font-size: 2vw;
+				font-weight: bold;
+				font-style: italic;
+				padding: 0.5vw;
+			}
+			#title {
+				margin: 5vw 35vw auto 20vw;
+				border: 0.5vw outset #5555dd;
+				background-color: #6666ee;
+				color: #ff9944;
+				font-weight: bold;
+				font-size: 3vw;
+				text-align: center;
+				padding: 1vw;
+			}
+			#div1 {
+				margin-left: 5vw;
+				margin-top: 6vw;
+				border-width: 0.1vw;
+				border-style: ridge;
+				border-color: #000000;
+				margin-right: 30vw;
+				padding: 1vw;
+				background-color: #eeeeee;
+				position: relative;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+			}
+			#div2 {
+				margin-top: 3vw;
+				margin-left: 10vw;
+				margin-right: 50vw;
+				padding: 1.5vw;
+				border: 0.5vw ridge #00dd00;
+				background-color: #770000;
+				color: #eedd33;
+				font-family: algerian;
+			}
+			::marker {
+				color: cyan;
+				font-family: arial;
+				font-weight: bold;
+				font-style: italic;
+			}
+			::selection {
+				color: #ffffff;
+				background: #000000;
+			}
+			#log {
+				position: absolute;
+				top: 1vw;
+				right: 0;
+				width: 6vw;
+				background-color: #999999;
+				border: 0.1vw solid #777777;
+				color: #000000;
+				font-size: 2vw;
+				font-weight: bold;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="/Project01/myfiles/cssTest.html">BACK</a><br>
+		<h1 id="head">CSS10</h1>
+		<h1 id="title">PSEUDO-ELEMENTS</h1>
+		<div id="div1">
+			<p>
+				Setting the top, right, bottom, and left properties of a relatively-positioned element 
+				will cause it to be adjusted away from its normal position. 
+				Other content will not be adjusted to fit into any gap left by the element.
+			</p>
+			<p>
+				An element with position: fixed; is positioned relative to the viewport, 
+				which means it always stays in the same place even if the page is scrolled. 
+				The top, right, bottom, and left properties are used to position the element.
+				A fixed element does not leave a gap in the page where it would normally have been located.
+				Notice the fixed element in the lower-right corner of the page. Here is the CSS that is used:
+			</p>
+			<span id="log">APEX</span>
+		</div>
+		<div id="div2">
+			<ol>
+				<li>MOROCCO</li>
+				<li>ARGENTINA</li>
+				<li>FRANCE</li>
+				<li>CROATIA</li>
+				<li>BRAZIL</li>
+				<li>PORTUGAUL</li>
+				<li>ENGLAND</li>
+				<li>NETHERLANDS</li>
+				<li>JAPAN</li>
+				<li>SPAIN</li>
+				<li>GHANA</li>
+			</ol>
+		</div>
+	</body>
+</html>

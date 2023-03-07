@@ -1,0 +1,17 @@
+body {
+	background-color: black;
+	color: lime;
+	font-size: 2vw;
+	font-weight: bold;
+	counter-reset: cc;
+}
+a {
+	color: lime;
+}
+a:not(#home)::before {
+	counter-increment: cc;
+	content: "CSS" counter(cc)"-> ";
+}
+#home {
+	color: red;
+}

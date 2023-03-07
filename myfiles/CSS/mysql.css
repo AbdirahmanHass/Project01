@@ -1,0 +1,13 @@
+body {
+	background-color: black;
+}
+a {
+	font-size: 3vw;
+	font-family: algerian;
+	font-style: italic;
+	color: lime;
+}
+#home {
+	color: red;
+	font-size: 3.3vw;
+}

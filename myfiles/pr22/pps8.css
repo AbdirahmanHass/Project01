@@ -1,0 +1,48 @@
+body {
+	background-color: #000000;
+	color: #ffff44;
+	font-weight: bold;
+	font-size: 1.5vw;
+}
+a {
+	color: #ff0000;
+}
+#prg1 {
+	position: relative;
+	height: 30vw;
+	width: 30vw;
+	background-color: #7777ff;
+	border: 0.2vw ridge #22ff44;
+	border-radius: 5%;
+	box-shadow: 0 0.4vw 0.8vw 0 rgba(50,255,100,0.6);
+	margin: 2vw auto 1.5vw 4vw;
+	color: #ffffff;
+}
+p.pprg {
+	position: absolute;
+	top: 0.5vw;
+	left: 2vw;
+	background-color: #0000dd;
+	width: 3.7vw;
+	padding: 0.1vw 0.3vw;
+	border: 0.2vw solid black;
+	border-radius: 20%;
+	box-shadow: 0 0.4vw 1.5vw 0 rgba(0,0,0,0.6);
+}
+#jama {
+	position: relative;
+	display: none;
+	height: 20vw;
+	width: 50vw;
+	background-color: #44aa77;
+	border: 0.2vw ridge #ffff88;
+	border-radius: 10%;
+	margin: 2vw auto 1vw 6vw;
+	box-shadow: 0 0.4vw 1.5vw 0 rgba(200,200,0,0.6);
+}
+#jama1 {
+	position: absolute;
+	top: 1vw;
+	left: 3vw;
+	font-weight: 2.5vw;
+}

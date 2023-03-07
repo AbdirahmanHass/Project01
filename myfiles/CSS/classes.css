@@ -1,0 +1,79 @@
+body {
+	background-color: lightgrey;
+}
+a {
+	font-size: 30px;
+	color: red;
+	font-family: algerian;
+	font-weight: bold;
+}
+table {
+	width: 100%;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	padding: 5px;
+}
+th {
+	background-color: white;
+	font-family: rockwell;
+}
+td {
+	background-color: white;
+	font-family: century gothic;
+}
+.maintitles {
+	color: purple;
+	font-family: goudy stout;
+	font-size: 30px;
+	text-align: center;
+}
+.city {
+	color: blue;
+	font-size: 20px;
+	font-family: algerian;
+}
+.paragraph1 {
+	color: green;
+	font-size: 20px;
+	font-family: arial;
+}
+.important {
+	color: red;
+	font-size: 120%;
+	font-weight: bold;
+}
+.table1 {
+	background-color: red;
+	color: red;
+}
+.table2 {
+	background-color: blue;
+	color: blue;
+}
+.table3 {
+	background-color: green;
+	color: green;
+}
+.table4{
+	background-color: purple;
+	color: purple;
+}
+.classtitles{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-family: algerian;
+}
+.east {
+	color: red;
+}
+.west {
+	color: blue;
+}
+.north {
+	color: green;
+}
+.south {
+	color: purple;
+}

@@ -1,0 +1,91 @@
+body {
+	background-color: maroon;
+	text-align: center;
+}
+a {
+	float: left;
+	color: red;
+	font-weight: bold;
+	font-size: 2vw;
+}
+h1 {
+	color: purple;
+	font-family: algerian;
+	font-size: 80px;
+	background-color: white;
+}
+.groups {
+	font-family: calibri;
+	font-size: 50px;
+	font-style: italic;
+	background-color: pink;
+}
+h1,.groups,.ph {
+	font-weight: bold;
+}
+.ph {
+	font-family: arial;
+	font-size: 30px;
+}
+.kara,.mada {
+	font-size: 20px;
+}
+.kara {
+	font-style: normal;
+}
+.mada {
+	font-style: italic;
+}
+#group1 {
+	color: red;
+}
+#kara1 {
+	color: green;
+}
+#karap1 {
+	color: yellow;
+}
+#kara2 {
+	color: lime;
+}
+#karap2 {
+	color: green;
+}
+#kara3 {
+	color: yellow;
+}
+#karap3 {
+	color: lime;
+}
+#group2 {
+	color: blue;
+}
+#mada1 {
+	color: navy;
+}
+#madap1 {
+	color: cyan;
+}
+#mada2 {
+	color: purple;
+}
+#madap2 {
+	color: navy;
+}
+#mada3 {
+	color: cyan;
+}
+#madap3 {
+	color: purple;
+}
+#div1{
+	background-color: purple;
+}
+#div2{
+	background-color: green;
+}
+hr {
+	height: 5px;
+	background-color: red;
+	border-color: lime;
+}

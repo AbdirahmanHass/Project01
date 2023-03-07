@@ -1,0 +1,19 @@
+html {
+	background-color: navy;
+	color: white;
+	font-size: 3vw;
+}
+a {
+	color: red;
+	font-size: 4vw;
+	font-family: algerian;
+	font-weight: bold;
+	font-style: italic;
+}
+h1 {
+	font-family: times new roman;
+	font-weight: bold;
+	text-align: center;
+	color: lime;
+	font-style: italic;
+}

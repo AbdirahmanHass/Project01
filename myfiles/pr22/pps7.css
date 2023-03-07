@@ -1,0 +1,70 @@
+body {
+	background-color: #000000;
+	color: #44ff77;
+	font-size: 2vw;
+	font-family: times new roman;
+}
+#kin {
+	position: fixed;
+	width: 6vw;
+	right: 5vw;
+	top: 2vw;
+	background-color: #440000;
+	color: #ff0000;
+	padding: 0.2vw 1vw;
+	border: 0.3vw groove #ff0000;
+	font-size: 2vw;
+	border-radius: 20%;
+}
+#mak {
+	position: relative;
+	margin: 2vw auto auto 5vw;
+	background-color: #ff0000;
+	width: 10vw;
+	height: 10vw;
+	border-radius: 50%;
+}
+#mak2 {
+	position: relative;
+	margin: 2vw auto auto 5vw;
+	width: 0;
+	height: 0;
+	border-left: 5vw solid transparent;
+	border-right: 5vw solid transparent;
+	border-bottom: 10vw solid #ff0000;
+}
+#mak3 {
+	position: relative;
+	margin: 2vw auto auto 5vw;
+	width: 0;
+	height: 0;
+	border-left: 5vw solid transparent;
+	border-right: 5vw solid transparent;
+	border-top: 10vw solid #ff0000;
+}
+#mak4 {
+	position: relative;
+	margin: 2vw auto auto 5vw;
+	width: 0;
+	height: 0;
+	border-top: 5vw solid transparent;
+	border-bottom: 5vw solid transparent;
+	border-left: 10vw solid #ff0000;
+}
+#mak5 {
+	position: relative;
+	margin: 2vw auto auto 5vw;
+	width: 0;
+	height: 0;
+	border-top: 5vw solid transparent;
+	border-bottom: 5vw solid transparent;
+	border-right: 10vw solid #ff0000;
+}
+#lon {
+	position: relative;
+	margin: 2vw auto auto 5vw;
+	background-color: red;
+	width: 10vw;
+	height: 10vw;
+	border-radius: 20%;
+}

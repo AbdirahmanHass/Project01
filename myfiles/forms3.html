@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="CSS/forms3.css">
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+		<title>
+			forms3
+		</title>
+	</head>
+	<body>
+		<a href="home.php">
+				HOME
+		</a>
+		<h1>
+			<ins>WELCOME!</ins>
+		</h1>
+		<form action="/action_page.php">
+			<fieldset>
+				<legend>READ-ONLY</legend>
+				<label for="fname">First Name:</label><br>
+				<input type="text" id="fname" name="fname" value="Abdirahman" readonly><br>
+				<label for="lname">Last Name:</label><br>
+				<input type="text" id="lname" name="lname" value="Hassan"><br><br>
+				<input type="submit" class="submit" value="submit">
+				<input type="reset" class="reset">
+			</fieldset>
+		</form>
+		<p>
+			=>The <ins><span class="imp">readonly</span></ins> <br>
+			atrribute makes <br>
+			the value in <br>
+			the input box <br>
+			unchangeable <br>
+			but can be <br>
+			copied!
+		</p><br><br>
+		<form action="/action_page.php">
+			<fieldset>
+				<legend>DISABLED</legend>
+				<label for="userName">Username:</label><br>
+				<input type="text" id="userName" name="userName" value="CalluxXD700"><br>
+				<label for="email">Email Address:</label><br>
+				<input type="email" id="email" name="email"><br>
+				<label for="pass">Password:</label><br>
+				<input type="password" id="pass" name="pass" value="triothermic" disabled><br><br>
+				<input type="submit" class="submit" value="submit">
+				<input type="reset" class="reset">
+			</fieldset>
+		</form>
+		<p>
+			=>The <ins><span class="imp">disabled</span></ins> atrribute 
+			makes the value in the 
+			input box unusable in anyway!
+		</p><br><br><br><br>
+		<form action="/action_page.php">
+			<fieldset>
+				<legend>SIZE & MAXLENGTH</legend>
+				<label for="fname">First Name:</label><br>
+				<input type="text" id="fname" name="fname" maxlength="15" size="15"><br>
+				<label for="lname">Last Name:</label><br>
+				<input type="text" id="lname" name="lname" maxlength="10" size="lname"><br>
+				<label for="psw">Password:</label><br>
+				<input type="password" id="psw" name="psw" maxlength="12" size="12"><br><br>
+				<input type="submit" class="submit" value="submit">
+				<input type="reset" class="reset">
+			</fieldset>
+		</form>
+		<p>
+			=>The <ins><span class="imp">size</span></ins> attribute 
+			specifies the size of the input 
+			box while the <ins>maxlength</ins> attribute 
+			specifies the maximum length of 
+			the input!
+		</p><br>
+		<form action="/action_page.php">
+			<fieldset>
+				<legend>MULTIPLE</legend>
+				<label for="files">Choose your files:</label><br>
+				<input type="file" id="files" name="files" multiple><br><br>
+				<input type="submit" class="submit" value="submit">
+				<input type="reset" class="reset">
+			</fieldset>
+		</form>
+		<p>
+			=>The <ins><span class="imp">multiple</span></ins> atrribute 
+			allows the user to select multiple 
+			values to be input and submited!
+		</p><br>
+	</body>
+</html>

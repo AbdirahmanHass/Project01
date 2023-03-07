@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="CSS/about us.css">
+		<title>
+			ABOUT US
+		</title>
+	</head>
+	<body>
+		<script>
+			document.getElementById("demo").innerHTML="The quick brown fox jumped over the lazy dog!";
+			function myFunction() {
+				document.getElementById("demo2").innerHTML="Hello javascript!";
+				document.getElementById("demo2").style.color="red";
+				document.getElementById("demo2").style.fontSize="30px";
+				document.getElementById("demo2").style.fontFamily="calibri";
+			}
+			function myFunction2() {
+				document.getElementById("demo3").style.fontSize="40px";
+				document.getElementById("demo3").style.backgroundColor="yellow";
+				document.getElementById("demo3").style.color="red";
+				document.getElementById("demo3").style.fontFamily="algerian";
+				document.getElementById("demo3").style.textAlign="center";
+				document.getElementById("demo3").style.fontWeight="bold";
+			}
+		</script>
+		<a href="home.php">HOME</a>
+		<div id="mainh">
+			ABOUT US
+		</div>
+		<h2>Javascript can change the content of an HTML element</h2>
+		<button id="button1" type="button" onclick="myFunction()">
+			Click Me
+		</button>
+		<h4 id="demo2">This is a demonstration!</h4>
+		<h2>Javascript can also change the style of an HTML element</h2>
+		<button id="button2" type="button" onclick="myFunction2()">
+			Change style
+		</button>
+		<h4 id="demo3">Ruto is the fifth president of Kenya!</h4>
+		<h2>Use javascript to change text</h2>
+		<p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
+		<p id="demo"></p>
+	</body>
+</html>

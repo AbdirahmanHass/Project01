@@ -1,0 +1,64 @@
+body {
+	  background-color: lightgray;
+}
+a {
+	color: lightblue;
+}
+h1 {
+	font-family: goudy stout;
+	background-color: yellow;
+	font-size: 50px;
+	color: purple;
+	padding: 30px;
+}
+h2 {
+	background-color: lightblue;
+	color: green;
+	font-size: 25px;
+	padding: 10px;
+}
+h4 {
+	color: blue;
+	font-family: calibri;
+	font-size: 20px;
+	padding: 10px;
+}
+ul.ul_1 {
+	background-color: lightblue;
+	text-align: center;
+	color: green;
+	font-size: 30px;
+	padding: 10px;
+	}
+ul.ul_2  {
+	background-color: black;
+	color: purple;
+	font-family: algerian;
+	font-size: 20px;
+	padding: 10px;
+}
+table.table1 {
+	text-align: center;
+	background-color: blue;
+	width: 100%;
+	padding: 10px;
+}
+th {
+	background-color: black;
+	font-size: 25px;
+	font-family: algerian;
+}
+table.table2 {
+	background-color: purple;
+	width: 100%;
+	padding: 10px;
+}
+th {
+	color: blue;
+}
+td {
+	background-color: blue;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}

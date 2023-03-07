@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CSS11</title>
+		<style>
+			.dropbtn {
+				background-color: #4caf50;
+				color: #ffffff;
+				padding: 16px;
+				font-size: 16px;
+				border: none;
+				cursor: pointer;
+			}
+			.drop {
+				position: relative;
+				display: inline-block;
+			}
+			.dropCont {
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+			.dropCont li {
+				color: #000000;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+			}
+			.dropCont li:hover {
+				background-color: #f1f1f1;
+			}
+			.drop:hover .dropCont {
+				display: block;
+			}
+			.drop:hover .dropbtn {
+				background-color: #3e8e41;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="drop">
+			<button id="dropbtn">=</button>
+			<div class="dropCont">
+				<ul>
+					<li>KENYA</li>
+					<li>UGANDA</li>
+					<li>SOMALIA</li>
+					<li>TANZANIA</li>
+					<li>ETHIOPIA</li>
+					<li>SUDAN</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
